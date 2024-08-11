@@ -1,0 +1,30 @@
+.product-img {
+  height: 250px;
+  width: 250px;
+}
+
+.product-card {
+  margin: 5px;
+}
+
+.name-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sign-para {
+  font-family: 'Roboto';
+  font-size: 11px;
+}
+
+.heart-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .product-card {
+    width: 50%;
+  }
+}

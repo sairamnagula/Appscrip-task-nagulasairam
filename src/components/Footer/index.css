@@ -1,0 +1,98 @@
+.footer-section {
+  background-color: black;
+  padding: 50px;
+}
+
+.insta {
+  background-color: white;
+  height: 22px;
+  width: 22px;
+  margin: 4px;
+}
+
+.linkdin {
+  background-color: white;
+  height: 22px;
+  width: 22px;
+  margin: 4px;
+}
+
+.footer-top-section {
+  display: flex;
+  justify-content: space-between;
+}
+.search-container {
+  height: 36px;
+  display: flex;
+}
+
+.search-tag {
+  height: 100%;
+  width: 60%;
+}
+
+.subscribe-btn {
+  height: 100%;
+  margin-left: 20px;
+  background-color: black;
+  border-width: 2px grey solid;
+  color: white;
+  cursor: pointer;
+}
+
+.subscribe-section {
+  width: 50%;
+}
+
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+.paragraph {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.payments-logo-image {
+  height: 60px;
+  width: 100px;
+}
+
+.horizontal {
+  display: none;
+}
+
+.footer-bottom-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-align {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-top-section {
+    flex-direction: column;
+  }
+  .search-tag {
+    width: 200px;
+  }
+  .horizontal {
+    width: 100%;
+    display: block;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .footer-bottom-section {
+    flex-direction: column;
+  }
+  .payments-logo-image {
+    height: 30px;
+    width: 60px;
+  }
+}

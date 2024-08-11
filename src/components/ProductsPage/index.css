@@ -1,0 +1,89 @@
+.option {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.items-para {
+  text-align: center;
+  font-weight: bold;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.select-dropbox {
+  height: 100%;
+  border-width: 0px;
+}
+
+.top-filter-section {
+  display: flex;
+  height: 50px;
+  display: flex;
+  border: 2px grey solid;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+.top-left-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter-btn {
+  height: 25px;
+  height: 100%;
+  background-color: white;
+  border-width: 0px;
+}
+
+.combine-container {
+  display: flex;
+  width: 100%;
+  flex-shrink: inherit;
+}
+
+.filter-left-section {
+  width: 25%;
+}
+
+.filter-right-section {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left-filters-btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: left;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+  border-width: 0px;
+  height: 50px;
+  border-top-width: 2px;
+}
+
+.filter-button {
+  height: 25px;
+  height: 100%;
+  background-color: white;
+  border-width: 0px;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .filter-btn {
+    display: none;
+  }
+  .items-para {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .filter-button {
+    display: none;
+  }
+}
